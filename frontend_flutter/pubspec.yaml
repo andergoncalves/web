@@ -1,0 +1,21 @@
+name: flutter_todo_api
+description: Flutter app para consumir Laravel Todo API com JWT
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.1.0
+  flutter_secure_storage: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true

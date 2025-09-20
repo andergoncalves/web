@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tymon/jwt-auth": "^1.0",
+        "predis/predis": "^3.2"
+    }
+}
